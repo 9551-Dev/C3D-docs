@@ -1,4 +1,4 @@
----
+--- The camera module is used for working around with camera objects and the scenes camera
 -- @module[kind=modules] c3d.camera
 
 local doc = {}
