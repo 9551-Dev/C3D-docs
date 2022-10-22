@@ -1194,8 +1194,8 @@ pre .prepro {
     font-size: initial;
     padding: 0.5em;
     width: 100%;
-    background-color: rgba(0.3, 0.3, 0.3, 0.5);
-    color: rgba(255,255,255,1);
+    background-color: rgba(40, 40, 40, 180);
+    color: rgba(255,255,255,180);
     font-family: Fira;
     font-weight: 900;
 }
