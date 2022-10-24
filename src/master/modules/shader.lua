@@ -16,7 +16,7 @@ local frag = {}
 -- @tparam table rot the rotation matrix of the object this vertex belongs to
 -- @tparam table pos the translation matrix of the object this vertex belongs to
 -- @tparam table camera the current camera object in the scene
--- @tparam table per the current persperctive matrix present in the scene
+-- @tparam table per the current perspective matrix present in the scene
 -- @treturn table the newly transformed vertex. yay !
 function default.vertex(new_vertice,properties,scale,rot,pos,camera,per)
 end

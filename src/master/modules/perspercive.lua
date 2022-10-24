@@ -1,5 +1,5 @@
---- the persperctive module is used for manipulating the cameras persperctive in the scene
--- @module[kind=modules] c3d.persperctive
+--- the perspective module is used for manipulating the cameras perspective in the scene
+-- @module[kind=modules] c3d.perspective
 
 local doc = {}
 
