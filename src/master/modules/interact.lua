@@ -1,4 +1,4 @@
---- The interact module allows you to get things from the 3D scene from screen coordiantes. For example you can find what object was clicked by just inputed the screen click coordinates.
+--- The interact module allows you to get things from the 3D scene from screen coordinates. For example you can find what object was clicked by just inputed the screen click coordinates.
 -- @module[kind=modules] c3d.interact
 
 local doc = {}
