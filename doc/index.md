@@ -21,7 +21,7 @@ require c3d.lua and run the `run` function
 
 ```lua
 local C3D = require("c3d")
-c3d.run(function()
+C3D.run(function()
     -- awesome code
 end)
 ```
