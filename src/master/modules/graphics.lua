@@ -34,4 +34,9 @@ end
 function doc.get_resolution()
 end
 
+--- allows you to change the pixel size and the resolution of the render
+-- @tparam number pixel_size the pixel size to use for the render
+function doc.set_pixel_size(pixel_size)
+end
+
 return doc
