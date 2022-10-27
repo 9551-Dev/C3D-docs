@@ -40,4 +40,19 @@ function doc.set(cam) end
 -- @see camera_object
 function doc.get() end
 
+--- Allows you to set a custom transform to the camera
+-- @tparam table transform the matrix to use as the camera transform
+function doc.set_transform(transform)
+end
+
+--- Allows you to set the cameras rotation and position using 2 vectors. one indicating the position and second one along with the first one indicating rotation.
+-- @tparam number x the `x` coordinate of the camera
+-- @tparam number y the `y` coordinate of the camera
+-- @tparam number z the `z` coordinate of the camera
+-- @tparam number at_x the `x` coordinate of the point the camera should look at
+-- @tparam number at_y the `y` coordinate of the point the camera should look at
+-- @tparam number at_z the `z` coordinate of the point the camera should look at
+function doc.lookat(x,y,z,at_x,at_y,at_z)
+end
+
 return doc

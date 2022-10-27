@@ -25,10 +25,28 @@ end
 function doc:set_rotation(...)
 end
 
+--- allows you to have the camera look at specific point from a specific position
+-- @tparam number x the `x` coordinate of the camera
+-- @tparam number y the `y` coordinate of the camera
+-- @tparam number z the `z` coordinate of the camera
+-- @tparam number at_x the `x` coordinate of the point the camera should look at
+-- @tparam number at_y the `y` coordinate of the point the camera should look at
+-- @tparam number at_z the `z` coordinate of the point the camera should look at
+function doc:lookat_transform(x,y,z,at_x,at_y,at_z)
+end
+
+--- sets a custom transformation matrix to the camera
+-- @tparam table transform the matrix to use as the camera transform
+function doc:set_transform(transform)
+end
+
+
 --- the cameras rotation matrix
 fields.rotation = {}
 --- the cameras translation matrix
 fields.position = {}
+--- the optional transformation matrix
+fields.transform = {}
 
 doc.fields = fields
 return doc
