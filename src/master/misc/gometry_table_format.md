@@ -2,6 +2,9 @@
 module: [kind=misc] geometry_table_format
 ---
 
+# this is outdated. for constructing meshes reffer to the mesh module
+@{c3d.mesh}
+
 ## the geometry table format contains of 3 main values. every geometry has a `geometry` table which defines its mesh
 ## these values contained within the geometry table are vertices,tris,uvs
 
