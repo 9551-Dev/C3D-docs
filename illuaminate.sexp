@@ -6,6 +6,7 @@
   /src/master/event-callbacks/
   /src/master/objects/
   /src/master/examples/
+  /src/master/plugin/
   /src/master/misc/
 )
 
@@ -18,7 +19,7 @@
     (title "C3D Docs")
     (logo src/master/pack.png)
     (url https://c3d.madefor.cc/)
-    (source-link https://github.com/9551-Dev/C3D/blob/${commit}/${path}#L${line})
+    (source-link https://github.com/9551-Dev/C3D/)
 
     (styles src/web/styles.css)
     ;; (scripts build/rollup/index.js)
@@ -32,6 +33,7 @@
     (objects Object)
     (examples Examples)
     (misc Misc)
+    (plugin Plugin)
   )
 
   (library-path
@@ -40,6 +42,7 @@
     /src/master/event-callbacks/
     /src/master/objects/
     /src/master/examples/
+    /src/master/plugin/
     /src/master/misc/
   )
 )

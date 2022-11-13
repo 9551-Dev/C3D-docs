@@ -15,12 +15,12 @@ end
 # vertex
 ## wave effect
 ```lua
-cube:set_vertex_shader(function(vertex,...)
+cube:set_vertex_shader(function(x,y,z,...)
     local t = os.epoch("utc")
 
-    vertex[2] = vertex[2] + math.sin(vertex[1]*10+t/200)/5 -- adds the wave effect to the height of the vertex offset by the x of it and time
+    y = y + math.sin(x*10+t/200)/5 -- adds the wave effect to the height of the vertex offset by the x of it and time
 
-    return c3d.shader.default.vertex(vertex,...) -- applies the default transforms to the modified vertex
+    return c3d.shader.default.vertex(x,y,z,...) -- applies the default transforms to the modified vertex
 end)
 ```
 
@@ -53,15 +53,13 @@ local random_color_lookup = setmetatable({},{__index=function(this,index)
     return c
 end}) -- a special table which has "infinite" amount of random colors on its indices
 
-cube:set_vertex_shader(function(vertex,...)
-    local transformed_vertex = c3d.shader.default.vertex(vertex,...)
+cube:set_vertex_shader(function(...)
+    local x,y,z,w = c3d.shader.default.vertex(vertex,...)
 
-    transformed_vertex.frag = {epic_color=random_color_lookup[vertex.index]} -- adds the color to be interpolated between the vertices
-
-    return transformed_vertex
+    return x,y,z,w,{epic_color=random_color_lookup[vertex.index]} -- adds the color to be interpolated between the vertices
 end)
 
 cube:set_frag_shader(function(pixel_data)
-    return 2^math.ceil(math.min(math.max(pixel_data.epic_color,0),15)) -- gets the interpolated fragment passed from the vertex shader and clamps it
+    return 2^math.ceil(math.min(math.max(pixel_data.frag.epic_color,0),15)) -- gets the interpolated fragment passed from the vertex shader and clamps it
 end)
 ```

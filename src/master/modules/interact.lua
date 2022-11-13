@@ -8,18 +8,33 @@ local doc = {}
 function doc.enable(enable)
 end
 
---- returns a @{triangle_table|triangle object} at the given screen coordinates.
+--- returns a @{triangle_table|triangle object} at the given screen coordinates. (translates from drawing char coord to pixel internally)
 -- @tparam number x the `x` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
 -- @tparam number y the `y` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
 -- @treturn triangle the triangle table object at the given screen coordinates
 function doc.get_triangle(x,y)
 end
 
---- returns a @{scene_object|scene object} at the given screen coordinates.
+--- returns a @{scene_object|scene object} at the given screen coordinates. (translates from drawing char coord to pixel internally)
 -- @tparam number x the `x` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
 -- @tparam number y the `y` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
 -- @treturn scene_object the scene object at the given screen coordinates
 function doc.get_object(x,y)
 end
+
+--- returns a @{triangle_table|triangle object} at the given screen coordinates. (does not translate. ideal for things like CraftOS-pc graphicsm mode)
+-- @tparam number x the `x` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
+-- @tparam number y the `y` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
+-- @treturn triangle the triangle table object at the given screen coordinates
+function doc.get_triangle_pixel(x,y)
+end
+
+--- returns a @{scene_object|scene object} at the given screen coordinates. (does not translate. ideal for things like CraftOS-pc graphicsm mode)
+-- @tparam number x the `x` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
+-- @tparam number y the `y` screen coordinate of the character block. Taken for example from mouse_click event or the @{c3d.mousepressed|mousepressed callback}
+-- @treturn scene_object the scene object at the given screen coordinates
+function doc.get_object_pixel(x,y)
+end
+
 
 return doc

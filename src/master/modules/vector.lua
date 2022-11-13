@@ -31,6 +31,47 @@ end
 function methods:normalize()
 end
 
+--- scales the vector with 3 given scales
+-- @tparam[opt] number x the `x` scale amount
+-- @tparam[opt] number y the `y` scale amount
+-- @tparam[opt] number z the `z` scale amount
+-- @treturn vector The scaled vector
+function methods:scale(x,y,z)
+end
+
+--- translates the vector with 3 given positions
+-- @tparam[opt] number x the `x` positions amount
+-- @tparam[opt] number y the `y` positions amount
+-- @tparam[opt] number z the `z` positions amount
+-- @treturn vector The translated vector
+function methods:translate(x,y,z)
+end
+
+--- rotates the vector with either a quaternion or euler angles
+-- @tparam[1] number dx the `x` rotation of the vector
+-- @tparam[1] number dy the `y` rotation of the vector
+-- @tparam[1] number dz the `z` rotation of the vector
+-- @tparam[2] number x the quaternion vector `x` position
+-- @tparam[2] number y the quaternion vector `y` position
+-- @tparam[2] number z the quaternion vector `z` position
+-- @tparam[2] number w the rotation along the quaternion vector
+-- @treturn vector The rotated vector
+function methods:rotate(x,y,z,w)
+end
+
+--- creates a 3D direction vector from pitch and yaw
+-- @tparam number yaw yaw to make the vector from
+-- @tparam number pitch pitch to make the vector from
+-- @treturn vector the created vector
+function methods:from_pitch_yaw()
+end
+
+--- creates a 2D direction vector from yaw
+-- @tparam number yaw yaw to make the vector from
+-- @treturn vector the created vector
+function methods:from_yaw()
+end
+
 doc.methods = methods
 
 return doc

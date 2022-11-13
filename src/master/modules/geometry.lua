@@ -4,9 +4,15 @@
 local doc = {}
 
 --- returns the mesh for a simple side UV mapped cube, in the form of a @{generic_shape,generic_shape} object
--- @tparam number scale_modifier the scale multiplier of the meshes size
+-- @tparam[opt] number scale_modifier the scale multiplier of the meshes size
 -- @return generic_shape
 function doc.cube_simple(scale_modifier)
+end
+
+--- returns the mesh for a UV mapped cube which can have sides textured individualy, in the form of a @{generic_shape,generic_shape} object
+-- @tparam[opt] number scale_modifier the scale multiplier of the meshes size
+-- @return generic_shape
+function doc.cube_skinned(scale_modifier)
 end
 
 --- loads the model from the given model file path and returns a @{generic_shape,generic_shape} object

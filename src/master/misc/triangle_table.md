@@ -11,3 +11,9 @@ module: [kind=misc] triangle_table
 | "index" | number | The index of the triangle. defined in the mesh.|
 | "fg" | function | The fragment shader used for this triangle. By default inherited from the parent object. |
 | "object" | scene_object | Pointer to the scene object that this triangle belongs to. |
+| "texture" | texture | Pointer to the texture that this triangle will use when being rasterized. |
+| "pixel_size" | number | The pixel size to render this triangle width |
+| "z_layer" | number | Allows you to force a depth value for this triangle |
+| "orig1" | vertex | The original vertex 1 |
+| "orig2" | vertex | The original vertex 2 |
+| "orig3" | vertex | The original vertex 3 |

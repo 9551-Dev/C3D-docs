@@ -1,0 +1,276 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>introduction</title><meta property="og:title" content="introduction" /><meta property="og:type" content="website" /><meta name="description" content="a guide to show how to setup a basic plugin" /><meta property="og:description" content="a guide to show how to setup a basic plugin" /><meta property="og:image" content="https://c3d.madefor.cc/pack.png" /><meta property="og:site_name" content="C3D Docs" /><link rel="stylesheet" href="../main.css?v=07f8166c" type="text/css" /><meta name="theme-color" content="#c8d87c"></head><body><nav id="nav"><button id="nav-reveal" type="button">&#9776;</button><h1><a href=".././"><img src="../pack.png" alt="C3D Docs" /></a></h1><div class="nav-links"><h2 class="collapsed" tabindex="0">Modules</h2><ul><li><a href="../modules/c3d.html" class="sidebar-link">c3d</a></li><li><a href="../modules/c3d.camera.html" class="sidebar-link">c3d.camera</a></li><li><a href="../modules/c3d.event.html" class="sidebar-link">c3d.event</a></li><li><a href="../modules/c3d.geometry.html" class="sidebar-link">c3d.geometry</a></li><li><a href="../modules/c3d.graphics.html" class="sidebar-link">c3d.graphics</a></li><li><a href="../modules/c3d.interact.html" class="sidebar-link">c3d.interact</a></li><li><a href="../modules/c3d.keyboard.html" class="sidebar-link">c3d.keyboard</a></li><li><a href="../modules/c3d.log.html" class="sidebar-link">c3d.log</a></li><li><a href="../modules/c3d.mouse.html" class="sidebar-link">c3d.mouse</a></li><li><a href="../modules/c3d.palette(module).html" class="sidebar-link">c3d.palette(module)</a></li><li><a href="../modules/c3d.perspective.html" class="sidebar-link">c3d.perspective</a></li><li><a href="../modules/c3d.pipe.html" class="sidebar-link">c3d.pipe</a></li><li><a href="../modules/c3d.plugin.html" class="sidebar-link">c3d.plugin</a></li><li><a href="../modules/c3d.scene.html" class="sidebar-link">c3d.scene</a></li><li><a href="../modules/c3d.shader.html" class="sidebar-link">c3d.shader</a></li><li><a href="../modules/c3d.sys.html" class="sidebar-link">c3d.sys</a></li><li><a href="../modules/c3d.thread.html" class="sidebar-link">c3d.thread</a></li><li><a href="../modules/c3d.timer.html" class="sidebar-link">c3d.timer</a></li><li><a href="../modules/c3d.vector.html" class="sidebar-link">c3d.vector</a></li></ul><h2 class="collapsed" tabindex="0">Callbacks</h2><ul><li><a href="../callbacks/c3d.errorhandler.html" class="sidebar-link">c3d.errorhandler</a></li><li><a href="../callbacks/c3d.init.html" class="sidebar-link">c3d.init</a></li><li><a href="../callbacks/c3d.load.html" class="sidebar-link">c3d.load</a></li><li><a href="../callbacks/c3d.on_event.html" class="sidebar-link">c3d.on_event</a></li><li><a href="../callbacks/c3d.postrender.html" class="sidebar-link">c3d.postrender</a></li><li><a href="../callbacks/c3d.quit.html" class="sidebar-link">c3d.quit</a></li><li><a href="../callbacks/c3d.render.html" class="sidebar-link">c3d.render</a></li><li><a href="../callbacks/c3d.run.html" class="sidebar-link">c3d.run</a></li><li><a href="../callbacks/c3d.screen_render.html" class="sidebar-link">c3d.screen_render</a></li><li><a href="../callbacks/c3d.threaderror.html" class="sidebar-link">c3d.threaderror</a></li><li><a href="../callbacks/c3d.update.html" class="sidebar-link">c3d.update</a></li></ul><h2 class="collapsed" tabindex="0">Event-Callbacks</h2><ul><li><a href="../event-callbacks/c3d.keypressed.html" class="sidebar-link">c3d.keypressed</a></li><li><a href="../event-callbacks/c3d.keyreleased.html" class="sidebar-link">c3d.keyreleased</a></li><li><a href="../event-callbacks/c3d.mousemoved.html" class="sidebar-link">c3d.mousemoved</a></li><li><a href="../event-callbacks/c3d.mousepressed.html" class="sidebar-link">c3d.mousepressed</a></li><li><a href="../event-callbacks/c3d.mousereleased.html" class="sidebar-link">c3d.mousereleased</a></li><li><a href="../event-callbacks/c3d.on_event.html" class="sidebar-link">c3d.on_event</a></li><li><a href="../event-callbacks/c3d.resize.html" class="sidebar-link">c3d.resize</a></li><li><a href="../event-callbacks/c3d.textinput.html" class="sidebar-link">c3d.textinput</a></li><li><a href="../event-callbacks/c3d.wheelmoved.html" class="sidebar-link">c3d.wheelmoved</a></li></ul><h2 class="collapsed" tabindex="0">Object</h2><ul><li><a href="../objects/animated_texture.html" class="sidebar-link">animated_texture</a></li><li><a href="../objects/camera_object.html" class="sidebar-link">camera_object</a></li><li><a href="../objects/generic_shape.html" class="sidebar-link">generic_shape</a></li><li><a href="../objects/imported_model.html" class="sidebar-link">imported_model</a></li><li><a href="../objects/palette.html" class="sidebar-link">palette</a></li><li><a href="../objects/plugin.html" class="sidebar-link">plugin</a></li><li><a href="../objects/raw_mesh.html" class="sidebar-link">raw_mesh</a></li><li><a href="../objects/registry_entry.html" class="sidebar-link">registry_entry</a></li><li><a href="../objects/scene_object.html" class="sidebar-link">scene_object</a></li><li><a href="../objects/sprite_sheet.html" class="sidebar-link">sprite_sheet</a></li><li><a href="../objects/texture.html" class="sidebar-link">texture</a></li></ul><h2 class="collapsed" tabindex="0">Examples</h2><ul><li><a href="../examples/example.shader.html" class="sidebar-link">example.shader</a></li><li><a href="../examples/example.texturing.html" class="sidebar-link">example.texturing</a></li><li><a href="../examples/example.thread.html" class="sidebar-link">example.thread</a></li></ul><h2 class="collapsed" tabindex="0">Misc</h2><ul><li><a href="../misc/enabling_debug.html" class="sidebar-link">enabling_debug</a></li><li><a href="../misc/geometry_flags.html" class="sidebar-link">geometry_flags</a></li><li><a href="../misc/geometry_table_format.html" class="sidebar-link">geometry_table_format</a></li><li><a href="../misc/sprite_sheet_settings.html" class="sidebar-link">sprite_sheet_settings</a></li><li><a href="../misc/texture_load_settings.html" class="sidebar-link">texture_load_settings</a></li><li><a href="../misc/triangle_table.html" class="sidebar-link">triangle_table</a></li></ul><h2 tabindex="0">Plugin</h2><ul><li><strong class="sidebar-link selected">introduction</strong></li></ul></div></nav><div id="main"><div id="search-form" role="form"><input id="search-box" type="text" placeholder="Search..." autocomplete="off" tabindex="0"></input><div id="search-results"></div></div><section id="content"><h1>introduction</h1><p>a guide to show how to setup a basic plugin</p>
+<h1>Creating your own module is quite simple really !. here we will make an empty module</h1>
+<div class="admonition admonition-tip"><h5 class="admonition-heading">tip</h5>
+<p>When debugging plugins you can enable the <code>debug</code> mode in C3D to have libC3D/c3d.log contain ton of details about plugin loading !
+check <a href="../misc/enabling_debug.html" class="reference reference-text">how to enable debug mode</a></p>
+</div>
+<p>First you want to define your init function into which the plugin registration will go</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>after getting that you need to create the actual plugin object. the plugin load function provides you with a <code>plug/plugin</code> variable you can use to create a plugin with a given name</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>while this will create your plugin C3D wont actually know it exists since it has not been registered. you can easily do that using the register method</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>now our plugin will be registered but wont show many signs of life. To give it atleast some we can have it output into log when it actually gets registered!
+to archive this we can use the plugin.on_init_finish callback which gets ran once all plugins have been registered. to find more check <span class="reference reference-text reference-unresolved">plugin callbacks</span></p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><h1>everything after this will be more complex and less commented. you can find more info in the other tabs of the plugin tab</h1>
+<h2>adding a module</h2>
+<p>now i will add my own module to be used by this plugin.
+this is done by grabbing the module registry and making new entry in within the register_modules plugin callback</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_modules</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">module_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_module_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_module</span>  <span class="symbol">=</span> <span class="ident">module_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome"</span><span class="symbol">)</span> <span class="comment">-- makes the module be called "awesome"</span>
+
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>All thats left for a module is to add some values into it. like functions and such. so why not add a function that just kills C3D by erroring ! :P</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_modules</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">module_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_module_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_module</span>  <span class="symbol">=</span> <span class="ident">module_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome"</span><span class="symbol">)</span> <span class="comment">-- makes the module be called "awesome"</span>
+
+            <span class="ident">awesome_module</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">entry</span><span class="symbol">(</span><span class="string">"die"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+                <span class="ident">error</span><span class="symbol">(</span><span class="string">"oops."</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>Now as mentioned you can also use plugins to modify existing entries. As an example of this lets have the c3d.vector.new function just error
+this will be done by grabbing the registry ID from a environment variable and then using the :get function of the registry</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_modules</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">module_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_module_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">vector_module</span>   <span class="symbol">=</span> <span class="ident">module_registry</span><span class="symbol">:</span><span class="symbol">get</span><span class="symbol">(</span><span class="ident">MODULE</span><span class="symbol">.</span><span class="symbol">vector</span><span class="symbol">)</span> <span class="comment">-- grabs the vector module from the registry</span>
+
+            <span class="ident">vector_module</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">entry</span><span class="symbol">(</span><span class="string">"new"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+                <span class="ident">error</span><span class="symbol">(</span><span class="string">"oops. no way you making a vector"</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><h1>Now lets go back a bit and lets see about threads.</h1>
+<p>Threads can be used to run some update code along with C3D in the background. for example we can have a plugin that will log the FPS every 5 seconds
+Lets make an example of that here !. this will be very similiar to modules. but actually simpler !
+we again use a callback for thread registration and we make a new entry in a registry.</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_threads</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">thread_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_thread_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+
+            <span class="ident">thread_registry</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry_entry</span><span class="symbol">(</span><span class="string">"fps-logger-thread"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+                <span class="keyword">while</span> <span class="literal-kw">true</span> <span class="keyword">do</span>
+                    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">timer</span><span class="symbol">.</span><span class="symbol">getFPS</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">)</span>
+                    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+                    <span class="ident">sleep</span><span class="symbol">(</span><span class="number">5</span><span class="symbol">)</span>
+                <span class="keyword">end</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><h1>objects</h1>
+<p>now we shall step back again before we did modules. and we should try making our own objects and modifying existing ones.
+objects are probably the most complex part of C3D plugin making. as you can even do things like add support for new file formats into existing objects.</p>
+<p>lets start of by clarifying what an object is. an object is some kind of structure with methods and other values attached to it. along with tools to work with those values.</p>
+<p>Any C3D object needs to have a constructor defined. and thats really it. With registies it is the same as with modules.
+So lets make an object which is just well.. a table. with nothing special.</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_objects</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">object_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_object_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_table</span>   <span class="symbol">=</span> <span class="ident">object_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome_table"</span><span class="symbol">)</span> <span class="comment">-- makes the module be called "awesome"</span>
+
+            <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">constructor</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+                <span class="keyword">return</span> <span class="symbol">{</span><span class="symbol">}</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>the final goal of this is going to make an object which can be made from a file and will automatically parse json and CC tables from files. also provide get and and set functions cause why not.
+This will include making a module for creating new objects. As otherwise the object cant be interacted with by the user</p>
+<p>So lets start that off by adding a module for creating new objects of this type.</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_objects</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">object_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_object_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_table</span>   <span class="symbol">=</span> <span class="ident">object_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome_table"</span><span class="symbol">)</span> <span class="comment">-- makes the module be called "awesome"</span>
+
+            <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">constructor</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+                <span class="keyword">return</span> <span class="symbol">{</span><span class="symbol">}</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_modules</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">module_registry</span>      <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_module_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_table_module</span> <span class="symbol">=</span> <span class="ident">module_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome_table"</span><span class="symbol">)</span>
+
+            <span class="keyword">local</span> <span class="ident">data_bus</span> <span class="symbol">=</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">get_c3d_bus</span><span class="symbol">(</span><span class="symbol">)</span>
+
+            <span class="ident">awesome_table_module</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">entry</span><span class="symbol">(</span><span class="string">"new"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">...</span><span class="symbol">)</span>
+                <span class="ident">data_bus</span><span class="symbol">.</span><span class="symbol">object</span><span class="symbol">.</span><span class="symbol">awesome_table</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="symbol">...</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>now that we got our module we can finally get to how file handling works. you can define a decoder for an object using :define_decoder and then
+use :read_file on the object with a given path, which will automatically pick a decoder using the extension in the path given. run the function with the
+path modifying to fit the projects path and then return what the decoder returns.</p>
+<h2>note that the data given to :define_decoder needs to be a table with a <code>read</code> function in it.</h2>
+<p>the goal here will be to provide either a path to .tbl or .json but have the object always be a Lua table when made using the module with a given path.</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">local</span> <span class="keyword">function</span> <span class="ident">json_decode</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">file</span> <span class="symbol">=</span> <span class="ident">fs</span><span class="symbol">.</span><span class="symbol">open</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">,</span><span class="string">"w"</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">data</span> <span class="symbol">=</span> <span class="ident">file</span><span class="symbol">.</span><span class="symbol">readAll</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="ident">file</span><span class="symbol">.</span><span class="symbol">close</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">return</span> <span class="ident">textutils</span><span class="symbol">.</span><span class="symbol">unserializeJSON</span><span class="symbol">(</span><span class="ident">data</span><span class="symbol">)</span>
+    <span class="keyword">end</span>
+    <span class="keyword">local</span> <span class="keyword">function</span> <span class="ident">tbl_decode</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">file</span> <span class="symbol">=</span> <span class="ident">fs</span><span class="symbol">.</span><span class="symbol">open</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">,</span><span class="string">"w"</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">data</span> <span class="symbol">=</span> <span class="ident">file</span><span class="symbol">.</span><span class="symbol">readAll</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="ident">file</span><span class="symbol">.</span><span class="symbol">close</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">return</span> <span class="ident">textutils</span><span class="symbol">.</span><span class="symbol">unserialize</span><span class="symbol">(</span><span class="ident">data</span><span class="symbol">)</span>
+    <span class="keyword">end</span>
+
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_objects</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">object_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_object_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_table</span>   <span class="symbol">=</span> <span class="ident">object_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome_table"</span><span class="symbol">)</span> <span class="comment">-- makes the module be called "awesome"¨</span>
+
+            <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">define_decoder</span><span class="symbol">(</span><span class="string">".json"</span><span class="symbol">,</span><span class="ident">json_decode</span><span class="symbol">)</span>
+            <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">define_decoder</span><span class="symbol">(</span><span class="string">".tbl"</span><span class="symbol">,</span> <span class="ident">tbl_decode</span><span class="symbol">)</span>
+
+            <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">constructor</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">)</span>
+                <span class="keyword">return</span> <span class="ident">awesome_table</span><span class="symbol">:</span><span class="symbol">read_file</span><span class="symbol">(</span><span class="ident">path</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_modules</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">module_registry</span>      <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_module_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">awesome_table_module</span> <span class="symbol">=</span> <span class="ident">module_registry</span><span class="symbol">:</span><span class="symbol">new_entry</span><span class="symbol">(</span><span class="string">"awesome_table"</span><span class="symbol">)</span>
+
+            <span class="keyword">local</span> <span class="ident">data_bus</span> <span class="symbol">=</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">get_c3d_bus</span><span class="symbol">(</span><span class="symbol">)</span>
+
+            <span class="ident">awesome_table_module</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">entry</span><span class="symbol">(</span><span class="string">"new"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">...</span><span class="symbol">)</span>
+                <span class="ident">data_bus</span><span class="symbol">.</span><span class="symbol">object</span><span class="symbol">.</span><span class="symbol">awesome_table</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="symbol">...</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>Thats almost it! the last thing worthy of noting is how to modify existing objects. here we got an awesome_table object which we made in the registry.
+But lets say we want to add a new method to the vector object. Like add a function which logs the vector. We can do that as easily as with modules!</p>
+<pre class="highlight" data-lua-kind="stmt"><span class="keyword">function</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">init</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">plugin</span><span class="symbol">.</span><span class="symbol">load</span><span class="symbol">(</span><span class="keyword">function</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">local</span> <span class="ident">very_awesome_plugin</span> <span class="symbol">=</span> <span class="ident">plug</span><span class="symbol">.</span><span class="symbol">new</span><span class="symbol">(</span><span class="string">"9551Dev:awesome-plugin"</span><span class="symbol">)</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">register_objects</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">object_registry</span> <span class="symbol">=</span> <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">get_object_registry</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">local</span> <span class="ident">vector_object</span>   <span class="symbol">=</span> <span class="ident">object_registry</span><span class="symbol">:</span><span class="symbol">get</span><span class="symbol">(</span><span class="ident">OBJECT</span><span class="symbol">.</span><span class="symbol">vector</span><span class="symbol">)</span> <span class="comment">-- grabs the vector object from the registry</span>
+
+            <span class="ident">vector_object</span><span class="symbol">:</span><span class="symbol">set_entry</span><span class="symbol">(</span><span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">registry</span><span class="symbol">.</span><span class="symbol">entry</span><span class="symbol">(</span><span class="string">"log"</span><span class="symbol">)</span><span class="symbol">,</span><span class="keyword">function</span><span class="symbol">(</span><span class="ident">this</span><span class="symbol">)</span>
+                <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Vector: "</span><span class="symbol">..</span><span class="ident">this</span><span class="symbol">)</span>
+                <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="keyword">end</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="keyword">function</span> <span class="ident">very_awesome_plugin</span><span class="symbol">.</span><span class="symbol">on_init_finish</span><span class="symbol">(</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">add</span><span class="symbol">(</span><span class="string">"Hello from awesome plugin !"</span><span class="symbol">)</span>
+            <span class="ident">c3d</span><span class="symbol">.</span><span class="symbol">log</span><span class="symbol">.</span><span class="symbol">dump</span><span class="symbol">(</span><span class="symbol">)</span>
+        <span class="keyword">end</span>
+
+        <span class="ident">very_awesome_plugin</span><span class="symbol">:</span><span class="symbol">register</span><span class="symbol">(</span><span class="symbol">)</span>
+    <span class="keyword">end</span><span class="symbol">)</span>
+<span class="keyword">end</span>
+<span class="symbol"></span></pre><p>Now you may not realize how powerful this is. but this gives you access to the whole vector object. you can modify the constructor
+or even define new decoders !</p>
+<h1>congrats you made it to the end ! hopefully you should now have a good idea of what C3D plugins are capable off :P</h1>
+<p>quick note: this api took really long to pull off lmao</p>
+</section><footer>Last updated on 2022-11-13</footer></div><div id="search-overlay"></div><script src="../main.js?v=c0ed00b8" type="text/javascript" defer=""></script></body></html>
