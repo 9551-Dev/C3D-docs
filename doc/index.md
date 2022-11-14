@@ -1,6 +1,8 @@
 :::warning
-C3D is **HIGHLY** experimental and is in early stages
-of development, only use if you know what you are doing.
+C3D while it has been released there may still be instabilities that i am not aware off!
+if you find any please contact me so they can be resolved. 
+
+discord: 9551Dev#5787
 :::
 
 C3D is an advanced 3D Renderer for ComputerCraft.
