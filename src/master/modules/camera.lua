@@ -26,7 +26,7 @@ function doc.set_rotation(dx,dy,dz,m) end
 -- @tparam number dx the `x` rotation of the camera
 -- @tparam number dy the `y` rotation of the camera
 -- @tparam number dz the `z` rotation of the camera
--- @treturn camera PID of the coroutine. This shouldn't change.
+-- @treturn camera newly created camera_object
 -- @see camera_object
 function doc.make(x,y,z,dx,dy,dz) end
 
