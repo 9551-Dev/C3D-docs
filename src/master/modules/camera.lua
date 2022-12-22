@@ -52,7 +52,8 @@ end
 -- @tparam number at_x the `x` coordinate of the point the camera should look at
 -- @tparam number at_y the `y` coordinate of the point the camera should look at
 -- @tparam number at_z the `z` coordinate of the point the camera should look at
-function doc.lookat(x,y,z,at_x,at_y,at_z)
+-- @tparam[opt] number near_plane_offset allows you to offset the near plane by shifting the worlds `w` by modifying the generated lookat matrix
+function doc.lookat(x,y,z,at_x,at_y,at_z,near_plane_offset)
 end
 
 return doc

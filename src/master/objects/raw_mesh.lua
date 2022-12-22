@@ -11,8 +11,8 @@ local doc = {}
 function doc:add_triangle(vertices,uvs,texture)
 end
 
---- builds and returns the mesh created. may be loaded using the @{c3d.scene|scene module}
--- @treturn table the geometry table to be loaded.
+--- builds and returns the mesh created. creates a @{generic_shape|generic shape object}
+-- @treturn generic_shape the new generic shape created from the mesh
 function doc:make_geometry()
 end
 

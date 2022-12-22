@@ -4,9 +4,19 @@
 local doc = {}
 
 --- loads a texture from a file with given @{texture_load_settings|settings} and returns the texture object.
+-- @tparam string path the path to the texture file
+-- @tparam table settings the settings to load the texture with
+-- @return texture object
 -- @see texture_load_settings
 -- @see example.texturing
 function doc.load_texture(path,settings)
+end
+
+--- loads a material from a file with given given @{texture_load_settings|texture load settings} and returns the decoded material.
+-- @tparam string path the path to the material file
+-- @tparam table settings the settings to load the textures with
+-- @return material object
+function doc.load_material(path,settings)
 end
 
 --- clears the screen pixel buffer with set color
@@ -65,7 +75,19 @@ end
 -- @tparam number x x position of the pixel in the buffer
 -- @tparam number y y position of the pixel in the buffer
 -- @tparam number color color to set the pixel in the buffer to
-function doc.set_pixel()
+function doc.set_pixel(x,y,color)
+end
+
+
+--- creates a blank texture with the given size
+-- @tparam number width width of the texture
+-- @tparam number height height of the texture
+-- @tparam[opt] settings the image creation settings to create this texture with
+function doc.blank_texture(width,height,settings)
+end
+
+--- allows you to force draw a frame
+function doc.generate_frame()
 end
 
 return doc

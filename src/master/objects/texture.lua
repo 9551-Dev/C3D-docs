@@ -15,6 +15,30 @@ end
 function doc:sprite_sheet(settings)
 end
 
+--- scales down the given texture by the given factor.
+-- @tparam number factor the factor to scale down the texture by.
+-- @treturn texture returns self for easy chain calling
+function doc:scale_down(factor)
+end
+
+--- updates the textures mipmaps
+function doc:update()
+end
+
+--- sets a pixel in the image
+-- @tparam number x the `x` position of the pixel in the texture
+-- @tparam number y the `y` position of the pixel in the texture
+-- @tparam number c the color to set this pixel to
+function doc:set_pixel(x,y,c)
+end
+
+--- sets a pixel in the images transparency mask layer
+-- @tparam number x the `x` position of the pixel in the texture
+-- @tparam number y the `y` position of the pixel in the texture
+-- @tparam boolean t transparency state
+function doc:set_pixel(x,y,t)
+end
+
 --- the data that the decoder has access to and can store data from. It stores the decoders output for example.
 fields.c3d = {}
 

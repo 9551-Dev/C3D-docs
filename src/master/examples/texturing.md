@@ -5,8 +5,13 @@ module: [kind=examples] example.texturing
 @{c3d.graphics|the graphics module}
 
 :::warning using proper image format
-right now C3D supports the .ppm format. to get this format you can put your image into gimp
+for pngs and other full color images, right now C3D supports the .ppm format. to get this format you can put your image into gimp
 and export it as a .ppm file natively. Make sure to **NOT** use ascii version.
+
+other supported formats are:
+    .ppm
+    .cimg2 (crappy image 2)
+    .nfp   (Nitrogen fingers paint)
 :::
 
 #

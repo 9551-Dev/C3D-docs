@@ -22,4 +22,10 @@ end
 function doc:get_plugin_bus()
 end
 
+--- allows you to force-override callbacks, can be used to restrict the user or in some cases inject code directly into the user environment. can be changed back using the @{c3d.sys|system module}
+-- @tparam string type the callback to override
+-- @param value value to set the callback to (must be possitive for the override to work)
+function doc:override(type,value)
+end
+
 return doc

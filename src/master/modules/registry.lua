@@ -28,4 +28,9 @@ end
 function doc.entry()
 end
 
+--- allows you to get a table from the C3D table recycling system
+-- @tparam[opt] number registry ID of the registry to work with
+function doc.get_table(registry)
+end
+
 return doc
