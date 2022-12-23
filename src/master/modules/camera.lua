@@ -6,7 +6,7 @@ local doc = {}
 --- Changes the position of the current camera
 -- @tparam number x the `x` position of the camera
 -- @tparam number y the `y` position of the camera
--- @tparam number y the `z` position of the camera
+-- @tparam number z the `z` position of the camera
 function doc.set_position(x,y,z) end
 
 --- Changes the rotation of the current camera
